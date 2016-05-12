@@ -1,0 +1,26 @@
+{
+  "name": "box2d.js",
+  "version": "0.0.1",
+  "description": "JS port of Box2D",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareSyndicate/box2d.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftwareSyndicate/box2d.js/issues"
+  },
+  "homepage": "https://github.com/SoftwareSyndicate/box2d.js#readme",
+  "jspm": {
+    "files": [
+      "min/box2d.js"
+    ]
+  },
+  "devDependencies": {
+    "jspm": "^0.16.34"
+  }
+}

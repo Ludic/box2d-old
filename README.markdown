@@ -1,3 +1,6 @@
+this repo is to be a source for jspm package
+
+
 box2d.js
 ========
 
@@ -63,10 +66,10 @@ $ /PATH/TO/EMSCRIPTEN emmake make
 To build latest (2.3.1) version:
 
 ```sh
-$ /PATH/TO/EMSCRIPTEN emmake make VERSION=latest 
+$ /PATH/TO/EMSCRIPTEN emmake make VERSION=latest
 ```
 
-Also, You can build the debug version of javascript file (with source maps support): 
+Also, You can build the debug version of javascript file (with source maps support):
 
 ```sh
 $ /PATH/TO/EMSCRIPTEN emmake make VERSION=latest BUILD=debug
