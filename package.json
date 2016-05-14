@@ -16,9 +16,9 @@
   },
   "homepage": "https://github.com/SoftwareSyndicate/box2d.js#readme",
   "jspm": {
-    "main": "min/box2d.js",
+    "main": "src/main.js",
     "files": [
-      "min/box2d.js"
+      "src/"
     ]
   },
   "devDependencies": {
