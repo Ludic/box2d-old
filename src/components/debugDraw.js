@@ -1,5 +1,5 @@
 import Box2D from 'box2d';
-import Util from '../util/util';
+import {Util} from 'Ludic';
 
 class DebugDraw {
   constructor(canvas) {

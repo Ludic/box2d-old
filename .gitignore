@@ -4,3 +4,7 @@ box2d_glue.js
 /Makefile.local
 WebIDLGrammar.pkl
 parser.out
+
+#jspm stuff
+jspm_packages
+node_modules
