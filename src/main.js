@@ -1,9 +1,6 @@
 
 export {default as DebugDraw} from './components/debugDraw.js'
-import Module from './components/box2d.js'
-export {Module as Box2D, Module as default};
-
-console.log('hello from box2d main.js', Module);
+export {Box2D as Box2D, Box2D as default} from './components/box2d.js'
 
 // world
 export {default as World} from './components/world'
