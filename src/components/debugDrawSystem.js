@@ -1,7 +1,7 @@
 import {BaseSystem} from 'Ludic'
 
 export default class DebugDrawSystem extends BaseSystem {
-  constructor(world, active, priority) {
+  constructor(active, priority, world) {
     super(active, priority);
     this.world = world;
   }
