@@ -49,8 +49,6 @@ class World {
               listener.callback(begin, contactObject);
             }
           } else {
-            console.log('else', contactObject);
-            // listener.callback.call(listener.binder || listener, begin, contactObject);
             listener.callback(begin, contactObject);
           }
         } else {
