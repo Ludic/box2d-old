@@ -1,4 +1,4 @@
-import {BaseSystem} from 'Ludic'
+import {BaseSystem} from 'EiN'
 
 export default class DebugDrawSystem extends BaseSystem {
   constructor(active, priority, world) {
