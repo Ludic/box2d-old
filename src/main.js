@@ -1,6 +1,5 @@
 
 export {default as DebugDraw} from './components/debugDraw.js'
-export {default as DebugDrawSystem} from './components/debugDrawSystem.js'
 export {Box2D as Box2D, Box2D as default} from './components/box2d.js'
 
 // world
