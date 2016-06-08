@@ -1,5 +1,5 @@
 {
-  "name": "box2d.js",
+  "name": "box2d",
   "version": "0.0.1",
   "description": "JS port of Box2D",
   "scripts": {
