@@ -1,6 +1,14 @@
 
 export {default as DebugDraw} from './components/debugDraw.js'
-export {Box2D as Box2D, Box2D as default} from './components/box2d.js'
+
+/*
+  Box2D has checks for the environment it loads into. When running this with
+   electron, Box2D thinks its in a node environment. So the imported object will
+   either be and object containing the Box2D lib or the lib itself.
+*/
+import Box2D from './components/box2d.js'
+let _Box2D = Box2D.Box2D || Box2D;
+export {_Box2D as Box2D, _Box2D as default};
 
 // world
 export {default as World} from './components/world'
