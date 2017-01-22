@@ -1,7 +1,7 @@
 
 class WorldConfig {
 
-  static PTM : 32;
+  PTM : 32;
 
   canvasOffset : {
     x: 0,
