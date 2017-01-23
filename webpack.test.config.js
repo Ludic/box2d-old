@@ -2,10 +2,12 @@
  * box2d test config
  */
 
-import nodeExternals from 'webpack-node-externals';
+var path = require('path');
+var fs = require('fs');
 
-export default {
-  externals: [nodeExternals()],
+module.exports = {
+  entry: "./test/main.js",
+  target: 'node',
   module: {
     loaders: [
       {
@@ -13,5 +15,5 @@ export default {
         loader: "babel-loader"
       }
     ]
-  },
+  }
 };
