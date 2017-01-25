@@ -2,6 +2,8 @@
     "name": "box2d",
     "version": "0.0.1",
     "description": "JS port of Box2D",
+    "format": "es6",
+    "main": "dist/main.js",
     "scripts": {
         "test": "mocha-webpack --watch \"tests/main.js\"",
         "dev": "webpack --watch --config ./webpack.dev.config.js",
