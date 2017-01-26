@@ -4,7 +4,8 @@
    either be and object containing the Box2D lib or the lib itself.
  */
 
-import Box2D, * as __Box2D from './box2d.js'
+/* import Box2D, * as __Box2D from './box2d.js' */
+import Box2D, * as __Box2D from '../build/Box2D_v2.3.1_min.js'
 let _Box2D = window.Box2D || Box2D.Box2D || Box2D;
 export {_Box2D as Box2D, _Box2D as default};
 

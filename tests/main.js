@@ -1,1 +1,1 @@
-import box2d from '../src/box2d.js'
+import box2d from '../dist/main.js'
