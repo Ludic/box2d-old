@@ -15,6 +15,10 @@
     "bugs": {
         "url": "https://github.com/Ludic/box2d.js/issues"
     },
+    "main": "build/Box2D_v2.3.1_min.js",
+    "files": [
+      "build/"
+    ],
     "homepage": "https://github.com/Ludic/box2d.js#readme",
     "jspm": {
         "registry": "jspm",
