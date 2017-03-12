@@ -16,6 +16,8 @@
         "url": "https://github.com/Ludic/box2d.js/issues"
     },
     "main": "build/Box2D_v2.3.1_min.js",
+    "jsnext:main": "build/Box2D_v2.3.1_debug.js",
+    "module": "build/Box2D_v2.3.1_debug.js",
     "files": [
       "build/"
     ],
